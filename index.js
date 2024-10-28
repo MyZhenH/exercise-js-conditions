@@ -4,9 +4,11 @@ let name = prompt("Whats your name?");
 console.log("Hello " + name + "!");
 
 //Uppgift 2 - Jämföra två ord
+//Fastnat på uppgiften!
 
 // let ord1 = prompt("Enter a word");
 // let ord2 = prompt("Enter another word");
+
 
 // Uppgift 3 - Är användaren vuxen
 
@@ -82,6 +84,11 @@ if (language == "swedish"){
     console.log("I would like to learn that language, " + language);
     
 }
+
+//Uppgift 9 - Multipel av 5
+//Fastnat på uppgiften!
+
+
 
 
 //Uppgift 10 - Ska vi gå ut?
