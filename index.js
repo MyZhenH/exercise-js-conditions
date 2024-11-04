@@ -1,14 +1,16 @@
 //Uppgift 1 - Hälsa användaren
-
 let name = prompt("Whats your name?");
 console.log("Hello " + name + "!");
 
 //Uppgift 2 - Jämföra två ord
-//Fastnat på uppgiften!
+let word1 = prompt("Enter a word");
+let word2 = prompt("Enter another word");
 
-// let ord1 = prompt("Enter a word");
-// let ord2 = prompt("Enter another word");
-
+if (word1 < word2){
+    console.log(word1 + " comes first in the alphabet.")
+}else{
+    console.log(word2 + " comes first in the alphabet.")
+}
 
 // Uppgift 3 - Är användaren vuxen
 
@@ -86,10 +88,13 @@ if (language == "swedish"){
 }
 
 //Uppgift 9 - Multipel av 5
-//Fastnat på uppgiften!
+const number = prompt("Enter a number");
 
-
-
+if (number % 5 === 0) {
+    console.log(number + " is a multiple of 5.");
+} else {
+    console.log(number + " is not multiple of 5.");
+}
 
 //Uppgift 10 - Ska vi gå ut?
 
